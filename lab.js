@@ -79,7 +79,9 @@ console.log((clothing) + (raining))
 */
 
 //CODE HERE
-
+for (i = 0; i < 10; i++){
+  console.log("hello")
+}
 ////////// PROBLEM 6 //////////
 
 /*
@@ -87,7 +89,9 @@ console.log((clothing) + (raining))
 */
 
 //CODE HERE
-
+for (i = 1; i <= 10; i++){
+  console.log(i)
+}
 ////////// PROBLEM 7 //////////
 
 /*
