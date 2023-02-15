@@ -57,7 +57,21 @@ let rain = true;
 */
 
 //CODE HERE
-
+let clothing = ""
+let raining = ""
+if(temperature >= 80){
+  clothing = "T-shirt "
+}else if(temperature > 60 && temperature < 80) {
+  clothing = "Light jacket "
+}else{
+  clothing = "Jacket "
+}
+if(rain){
+  raining = "and an umbrella"
+}else{
+  raining = ""
+}
+console.log((clothing) + (raining))
 ////////// PROBLEM 5 //////////
 
 /*
